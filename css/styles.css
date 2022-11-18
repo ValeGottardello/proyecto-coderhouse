@@ -11,43 +11,72 @@
 /* header */
 header {
     background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,30%, 35%, 35%);
+    grid-template-rows: repeat(2,6vh);
+    justify-items: center;
+    align-items: center;
+}
+.logo{
+    grid-column:2/span 3;
+    grid-row: 1;
     margin-top: 15px;
 }
+.logo img{
+    width: 131px;
+    height: 52px;
+}
+.titulo{
+    grid-column:2/span 3;
+    grid-row: 2;
+}
 .navegador{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 40px;
-    align-items: center;
-    background-color: #7a7a7a7c;
-    border: solid #474747 1px;
-    position:sticky;
-    top:0px;
-}
-.navegador nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.navegador nav ul li,.navegador nav ul li a {
-    font-family:'Inter', sans-serif; ;
-    font-size: 0.8rem;
-    list-style: none;
-    color: #474747;
+    grid-column:1;
+    grid-row: 1/span 2;
+    background-color: #EF7F1A;
 }
 .linkinicio {
     text-decoration: none;
 }
 header .titulo a h1{
-    font-size: 2rem
-}
-header .titulo a h1 {
+    font-size: 1.3rem ;
     list-style: none;
     color: #474747;
     font-family: 'Secular One', sans-serif;
+    font-weight: 300;
 }
+.navegador nav{
+    height: 100%;
+    width: 100%;
+}
+.navegador nav ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.navegador nav ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 3px;
+}
+.navegador nav ul li,.navegador nav ul li a {
+    font-family:'Inter', sans-serif; ;
+    font-size: 0.7rem;
+    list-style: none;
+    color:white;
+    font-weight: 100;
+}
+/* no me aplica hover */
+.navegador nav ul li a:hover {
+    transform: scale(1);
+    color: #474747;
+    box-shadow: 3px 3px 10px 0px #FFFFFF;
+    
+}
+
+
 /*media1 main */
 .imagenfondo {
     display: flex;
