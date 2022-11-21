@@ -5,159 +5,129 @@
     font-family:'PT Serif', serif;
     text-decoration: none;
 }
-
 /* INDEX media 1 */
 @media only screen and (min-width: 0px) and (max-width: 599px) {
-/* header */
-header {
-    background-color: #FFFFFF;
-    display: grid;
-    grid-template-columns: repeat(3,30%, 35%, 35%);
-    grid-template-rows: repeat(2,6vh);
-    justify-items: center;
-    align-items: center;
-}
-.logo{
-    grid-column:2/span 3;
-    grid-row: 1;
-    margin-top: 15px;
-}
-.logo img{
-    width: 131px;
-    height: 52px;
-}
-.titulo{
-    grid-column:2/span 3;
-    grid-row: 2;
-}
-.navegador{
-    grid-column:1;
-    grid-row: 1/span 2;
-    background-color: #EF7F1A;
-}
-.linkinicio {
-    text-decoration: none;
-}
-header .titulo a h1{
-    font-size: 1.3rem ;
-    list-style: none;
-    color: #474747;
-    font-family: 'Secular One', sans-serif;
-    font-weight: 300;
-}
-.navegador nav{
-    height: 100%;
-    width: 100%;
-}
-.navegador nav ul{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-}
-.navegador nav ul li{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin: 3px;
-}
-.navegador nav ul li,.navegador nav ul li a {
-    font-family:'Inter', sans-serif; ;
-    font-size: 0.7rem;
-    list-style: none;
-    color:white;
-    font-weight: 100;
-}
-/* no me aplica hover */
-.navegador:hover {
-    transform: scale(1);
-    color: #474747;
-    box-shadow: 3px 3px 10px 0px #FFFFFF;
-}
-
-
-/*media1 main */
-.imagenfondo {
-    display: flex;
-    width: 100vw;
-    height: 35vh;
-
-}
-.imagenfondo img{
-    width: 100%;
-    height: 100%;
-}
-.titulo{
-    color: #0d656d;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 15px 0px 15px  0px;
-}
-/*  */
-.novedades{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 45vh;
-    margin-bottom: 15px;
-}
-.novedades div{
-    width: 100%;
-    height:100%;
-}
-.novedades div article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin: 15px 15px 15px 15px;
-    background-color: #7a7a7a7c;
-    border-style:outset;
-    box-shadow: 8px 8px 20px #474747;
-}
-.novedades div article img {
-    width:100%;
-    height:100%;
-
-}
-.articuloDiseno article h3 {
-    text-transform: uppercase;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
-    color: #0d656d;
-    margin:10px;
+    /* header */
+    header {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .navegador{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 40px;
+        align-items: center;
+        background-color: #7a7a7a7c;
+        border: solid #474747 1px;
+        position:sticky;
+        top:0px;
+    }
+    .navegador nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navegador nav ul li,.navegador nav ul li a {
+        font-family:'Inter', sans-serif;
+        font-size: 0.8rem;
+        list-style: none;
+        color: #474747;
+    }
+    .linkinicio {
+        text-decoration: none;
+    }
+    header .titulo a h1{
+        font-size: 2rem
+    }
+    header .titulo a h1 {
+        list-style: none;
+        color: #474747;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    /*media1 main */
+    .imagenfondo {
+        display: flex;
+        width: 100vw;
+        height: 35vh;
     
-}
-.articuloDiseno article span a{
-    text-transform: uppercase;
-}
-.articuloDiseno article span a, .articuloDiseno article p {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 0.8rem;
-    text-align: justify;
-    width: 100%;
-    letter-spacing: 0.5px;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.articuloDiseno article span a {
-    color: #474747;
-}
-.articuloDiseno article p{
-    padding:8px;
-}
-hr {
-    height: 1px;
-    width: 70%;
-    background-color: #474747;
-    border: none;
-}
-
+    }
+    .imagenfondo img{
+        width: 100%;
+        height: 100%;
+    }
+    .titulo{
+        color: #0d656d;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 15px 0px 15px  0px;
+    }
+    /*  */
+    .novedades{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 45vh;
+        margin-bottom: 15px;
+    }
+    .novedades div{
+        width: 100%;
+        height:100%;
+    }
+    .novedades div article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin: 15px 15px 15px 15px;
+        background-color: #7a7a7a7c;
+        border-style:outset;
+        box-shadow: 8px 8px 20px #474747;
+    }
+    .novedades div article img {
+        width:100%;
+        height:100%;
+    
+    }
+    .articuloDiseno article h3 {
+        text-transform: uppercase;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.2rem;
+        text-align: center;
+        color: #0d656d;
+        margin:10px;
+        
+    }
+    .articuloDiseno article span a{
+        text-transform: uppercase;
+    }
+    .articuloDiseno article span a, .articuloDiseno article p {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 0.8rem;
+        text-align: justify;
+        width: 100%;
+        letter-spacing: 0.5px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .articuloDiseno article span a {
+        color: #474747;
+    }
+    .articuloDiseno article p{
+        padding:8px;
+    }
+    hr {
+        height: 1px;
+        width: 70%;
+        background-color: #474747;
+        border: none;
+    }
 }
 
 /* INDEx media 2 */
