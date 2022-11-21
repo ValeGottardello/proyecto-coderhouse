@@ -69,11 +69,10 @@ header .titulo a h1{
     font-weight: 100;
 }
 /* no me aplica hover */
-.navegador nav ul li a:hover {
+.navegador:hover {
     transform: scale(1);
     color: #474747;
     box-shadow: 3px 3px 10px 0px #FFFFFF;
-    
 }
 
 
@@ -158,6 +157,7 @@ hr {
     background-color: #474747;
     border: none;
 }
+
 }
 
 /* INDEx media 2 */
