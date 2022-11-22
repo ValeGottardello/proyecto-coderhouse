@@ -25,17 +25,22 @@
         color: #474747;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 2rem;
-        margin-bottom: 40px;
-        margin-top:40px;
+        margin: 40px auto 40px  auto;
+        padding: 3px;
+        border: solid #5DC1B9;
+        width: fit-content;
+        border-top-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
     }
     .navegador{
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 40px;
         align-items: center;
-        background-image: url(../imagenes/woodbackgound.jpg);
+        background-color: #47474748;
         position:sticky;
         top:0px;
+
     }
     .navegador nav ul{
         display: flex;
@@ -43,14 +48,14 @@
         justify-content: space-evenly;
     }
     .navegador nav ul li,.navegador nav ul li a {
-        font-family:'Inter', sans-serif;
+        font-family:'Jost', sans-serif;
         font-size: 0.8rem;
         list-style: none;
-        color: #7C7C7C;
+        color: white;
     }
     /*media1 main */
     body {
-        background-color:#7C7C7C;
+        background-color:#5DC1B9;
     }
     .imagenfondo {
         display: flex;
@@ -62,15 +67,20 @@
         width: 100%;
         height: 100%;
     }
-    .titulosegundo{
-        color: white;
+    .titulosegundo{ 
+        color: #FFFFFF;
         text-transform: uppercase;
         font-size: 1.7rem;
         font-family: 'Jost', sans-serif;
         text-transform: uppercase;
-        text-align: center;
-        margin: 80px 0px 0px  0px;
+        margin: 50px auto 25px  auto;
+        padding: 3px;
+        border: solid ;
+        width: fit-content;
+        border-top-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
     }
+    
     /* Tarjetas */
     .novedades{
         display: grid;
@@ -91,14 +101,14 @@
         border-style:none;
         box-shadow: 8px 8px 20px #474747;
         background-color: #CBCBCB;
-        -webkit-border-top-left-radius: 15px; 
-        -webkit-border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
     }
     .novedades div article img {
         width:100%;
         height:100%;
-        -webkit-border-top-left-radius: 15px; 
-        -webkit-border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
     }
 
     .articuloDiseno article h3 {
@@ -112,6 +122,9 @@
     }
     .articuloDiseno article span a{
         text-transform: uppercase;
+    }
+    .articuloDiseno article span a:hover{
+        color: #EF7F1A;
     }
     .articuloDiseno article span a, .articuloDiseno article p {
         color: #FFFFFF;
@@ -142,54 +155,21 @@
         -webkit-transform: rotate(45deg);
                 transform: rotate(45deg);
     }
-    .icono{
-        position: relative;
-        left:30%;
-        top:8px;
-    }
-    .navigate-solid.icon:before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: -17px;
-        width: 0;
-        height: 0;
-        border-top: solid 18px transparent;
-        border-bottom: solid 18px currentColor;
-        border-left: solid 7px transparent;
-        border-right: solid 7px transparent;
-    }
-    .navigate-solid.icon:after {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 9px;
-        width: 0;
-        height: 0;
-        color: white;
-        border-top: solid 5px transparent;
-        border-bottom: solid 5px currentColor;
-        border-left: solid 7px transparent;
-        border-right: solid 7px transparent;
-    }
     #footer{
-        background-color: #5DC1B9;
+        background-color: white;
         display: flex;
-        height: 35vh;
+        height: 20vh;
         justify-content: center;
         align-items: center;
     }
     #footer ul{
-        list-style: none;
-    }
-    #footer ul li{
-        list-style: none;
+        list-style:none;
     }
     #footer ul li h4{
         font-family: 'Jost', sans-serif;
         text-transform: uppercase;
-        color:white;
-        font-size: 1rem;
+        color:#5DC1B9;
+        font-size: 0.8rem;
         letter-spacing: 1px;
         font-weight: 300;
         text-align: center;
@@ -239,6 +219,27 @@ header .titulo a h1, .navegador nav ul li,.navegador nav ul li a {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* no medias */
 /* HISTORIA  */
 
 main .tituloDePagina, .subtituloDePagina {
