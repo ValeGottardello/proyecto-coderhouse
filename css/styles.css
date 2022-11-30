@@ -61,12 +61,11 @@
     }
     .imagenfondo {
         width: 100vw;
-        height: 40vh;
-    
+        height: 35vh;
     }
     .imagenfondo img{
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
     .titulosegundo{ 
         color: #FFFFFF;
@@ -247,8 +246,8 @@ body {
 
 }
 .imagenfondo img{
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
 }
 .titulosegundo{ 
     color: #FFFFFF;
@@ -356,6 +355,7 @@ body {
 /* CONTACTOS, un poco bootstrap y un poco css */
 .tituloDePagina {
     font-size: 1.8rem;
+    
 }
 
 
