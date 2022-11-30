@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'PT Serif', serif;
+    font-family:'Jost', sans-serif;
     text-decoration: none;
 }
-/* INDEX media 1 */
+/* INDEX media querie 1 */
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     /* header */
     header {
@@ -170,7 +170,7 @@
     }
 }
 
-/* INDEx media 2 */
+/* INDEx media querie 2 */
 @media only screen and (min-width: 768px) {
 /* Header */
 header {
@@ -353,6 +353,10 @@ body {
 }
 }
 
+/* CONTACTOS, un poco bootstrap y un poco css */
+.tituloDePagina {
+    font-size: 1.8rem;
+}
 
 
 
@@ -373,8 +377,7 @@ body {
 
 
 
-
-/* no medias */
+/* NO medias, RESTO DE LAS PAGINAS CON CSS */
 /* HISTORIA  */
 
 main .tituloDePagina, .subtituloDePagina {
