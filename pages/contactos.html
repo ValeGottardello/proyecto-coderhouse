@@ -21,7 +21,7 @@
 
 <body>
     <!-- inicio header -->
-    <header>
+    <header class="">
         <div class="logo">
             <img src="../imagenes/logo_mobilia.png" alt="logo mobilia">
         </div>
@@ -66,15 +66,15 @@
     <main>
         <section class="container">
             <article class="row">
-                <div class="col-12 d-flex flex-row justify-content-center flex-md-row justify-content-md-center">
+                <div class="col-12 d-flex flex-row justify-content-center">
                     <h2 class="tituloDePagina ">|CONTACTO</h2>
                 </div>
-                <div class="col-12 col-md-6 ">
+                <div class="col-12 col-md-6 col-lg-12">
                     <p class="parrafo">Para contactarnos puedes utilizar cualquiera de nuestras vias de contactos o bien
                         escribirnos
                         llenando el siguiente formulario.</p>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 col-lg-12">
                     <ul class="infoDeContacto p-0">
                         <li>mobiliamuebles@hotmail.com</li>
                         <li>Ruta 10 - Villa del Rosario - Cordoba Argentina</li>
@@ -86,35 +86,36 @@
         <!-- inicio de formularios -->
         <div class="container">
             <div class="row">
-                <form action="" class="col-md-6 p-3 col-md-6">
-                    <div class="col-6">
-                        <input type="name" name="nombre" id="nombre" placeholder="Nombre" required>
-                    </div>
-                    <div class="col-6">
-                        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
-                    </div>
-                    <div class="col-6">
-                        <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" required>
-                    </div>
-                    <div class="col-6">
-                        <input type="email" name="email" id="email" placeholder="mailto@hotmail.com" required>
-                    </div>
-                    <div class="col-6">
-                        <select name="asunto" id="asunto">
-                            <option clas="asunto" value="reclamo">Reclamos</option>
-                            <option class="asunto" value="venta">Ventas</option>
-                            <option class="asunto" value="pagos">Pagos</option>
-                            <option class="asunto" value="proveedores">Proveedores</option>
-                        </select>
-                    </div>
-                    <div class="col-12">
-                        <textarea class="textArea" name="observaciones" id="observaciones" cols="30" rows="10"
-                            placeholder="Envíanos tu consulta"></textarea>
+                <form action="" class="container col-sm-12 col-md-6 ">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="name" name="nombre" id="nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" id="email" placeholder="mailto@hotmail.com" required>
+                        </div>
+                        <div class="col-sm-12">
+                            <select name="asunto" id="asunto">
+                                <option clas="asunto" value="reclamo">Reclamos</option>
+                                <option class="asunto" value="venta">Ventas</option>
+                                <option class="asunto" value="pagos">Pagos</option>
+                                <option class="asunto" value="proveedores">Proveedores</option>
+                            </select>
+                        <div class="col-sm-12">
+                            <textarea class="textArea" name="observaciones" id="observaciones" cols="30" rows="10"
+                                placeholder="Envíanos tu consulta"></textarea>
+                        </div>
                     </div>
                 </form>
                 <!-- fin de formularios -->
                 <!-- inicio de iframe -->
-                <aside class="col-6">
+                <aside class="col-sm-12 col-md-6 d-sm-flex justify-content-sm-center">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4808.149871536293!2d-63.52307595611108!3d-31.555034535093956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94332ba53dc6587f%3A0x40c51f1656b01c9!2sMobilia%20S.A.!5e0!3m2!1ses!2sau!4v1666911736257!5m2!1ses!2sau"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
