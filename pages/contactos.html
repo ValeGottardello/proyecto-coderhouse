@@ -21,17 +21,9 @@
 
 <body>
     <!-- inicio header -->
-    <header class="">
-        <div class="logo">
-            <img src="../imagenes/logo_mobilia.png" alt="logo mobilia">
-        </div>
-        <div class="titulo">
-            <a href="./index.html" class="linkinicio">
-                <h1>MOBILIA MUEBLES</h1>
-            </a>
-        </div>
+    <header>
         <!-- inicio nav -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -59,6 +51,18 @@
                 </div>
             </div>
         </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-center ">
+                    <img src="../imagenes/logo_mobilia.png" alt="logo mobilia" width="186" height="74" class="m-3">
+                </div>
+                <div class="col-12  d-flex flex-row justify-content-center">
+                    <a href="../index.html" class="titulo text-decoration-none m-3">
+                        <h1>MOBILIA MUEBLES</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- fin del nav-->
     <!-- fin header -->
@@ -86,41 +90,27 @@
         <!-- inicio de formularios -->
         <div class="container">
             <div class="row">
-                <form action="" class="container col-sm-12 col-md-6 ">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <input type="name" name="nombre" id="nombre" placeholder="Nombre" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="email" name="email" id="email" placeholder="mailto@hotmail.com" required>
-                        </div>
-                        <div class="col-sm-12">
-                            <select name="asunto" id="asunto">
-                                <option clas="asunto" value="reclamo">Reclamos</option>
-                                <option class="asunto" value="venta">Ventas</option>
-                                <option class="asunto" value="pagos">Pagos</option>
-                                <option class="asunto" value="proveedores">Proveedores</option>
-                            </select>
-                        <div class="col-sm-12">
-                            <textarea class="textArea" name="observaciones" id="observaciones" cols="30" rows="10"
-                                placeholder="Envíanos tu consulta"></textarea>
-                        </div>
-                    </div>
+                <form action="" class="col-sm-12 col-md-6 col-lg-6">
+                    <input class="m-1" type="name" name="nombre" id="nombre" placeholder="Nombre" required>
+                    <input class="m-1" type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                    <input class="m-1" type="tel" name="telefono" id="telefono" placeholder="Teléfono" required>
+                    <input class="m-1" type="email" name="email" id="email" placeholder="mailto@hotmail.com" required>
+                    <select class="m-1" name="asunto" id="asunto">
+                        <option clas="asunto" value="reclamo">Reclamos</option>
+                        <option class="asunto" value="venta">Ventas</option>
+                        <option class="asunto" value="pagos">Pagos</option>
+                        <option class="asunto" value="proveedores">Proveedores</option>
+                    </select>
+                    <textarea class="m-1" class="textArea" name="observaciones" id="observaciones" cols="30" rows="10"
+                        placeholder="Envíanos tu consulta"></textarea>
                 </form>
                 <!-- fin de formularios -->
                 <!-- inicio de iframe -->
-                <aside class="col-sm-12 col-md-6 d-sm-flex justify-content-sm-center">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4808.149871536293!2d-63.52307595611108!3d-31.555034535093956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94332ba53dc6587f%3A0x40c51f1656b01c9!2sMobilia%20S.A.!5e0!3m2!1ses!2sau!4v1666911736257!5m2!1ses!2sau"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </aside>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4808.149871536293!2d-63.52307595611108!3d-31.555034535093956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94332ba53dc6587f%3A0x40c51f1656b01c9!2sMobilia%20S.A.!5e0!3m2!1ses!2sau!4v1666911736257!5m2!1ses!2sau"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="iframe col-sm-12 col-md-6 col-lg-6">
+                </iframe>
             </div>
         </div>
     </main>
