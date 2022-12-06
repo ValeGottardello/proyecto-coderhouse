@@ -44,7 +44,9 @@ body {
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-
+.carrusel div div img {
+    height: 30vh;
+}
 /* Tarjetas */
 .novedades div article img {
     width: 100%;
@@ -118,9 +120,8 @@ body {
 /* Tarjetas */
 
 .novedades div article {
-    margin: 15px 15px 15px 15px;
     border-style: none;
-    box-shadow: 8px 8px 20px #474747;
+    box-shadow: 8px 8px 0px #474747;
     background-color: #CBCBCB;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -133,7 +134,7 @@ body {
     border-bottom-right-radius: 15px;
 }
 .novedades{
-    width: auto;
+    width: 100%;
     height: auto;
 }
 .articulo {
@@ -204,7 +205,95 @@ body {
     font-weight: 300;
     text-align: justify;
 }
-
+/* small media querie INDEX  */
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    /*media1 main */
+    .carrusel div div img {
+        height: 20vh;
+    }
+    .titulosegundo{ 
+        color: #EF7F1A;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-family: 'Jost', sans-serif;
+        text-transform: uppercase;
+        margin: 50px auto 25px  auto;
+        padding: 3px;
+        border: solid ;
+        width: fit-content;
+        border-top-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
+    }
+    /* Tarjetas */
+    .novedades div article {
+        margin: 15px 15px 15px 15px;
+        border-style:none;
+        box-shadow: 8px 8px 0px #474747;
+        background-color: #CBCBCB;
+        border-top-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
+        width: 80%;
+        height:100%
+    }
+    .novedades div article img {
+        width:100%;
+        height:50%;
+        border-top-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
+    }
+    .articuloDiseno article h3 {
+        text-transform: uppercase;
+        font-family:'Jost', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 300;
+        text-align: center;
+        color: #EF7F1A;
+        margin-top:20px;        
+    }
+    .articuloDiseno article span a{
+        text-transform: uppercase;
+    }
+    .articuloDiseno article span a:hover{
+        color: #EF7F1A;
+    }
+    .articuloDiseno article span a, .articuloDiseno article p {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+        letter-spacing: 0.5px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family:'Jost', sans-serif;
+    }
+    .articuloDiseno article span a {
+        color: #474747;
+    }
+    .articuloDiseno article p{
+        padding:20px;
+    }
+    #footer{
+        background-color: white;
+        display: flex;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer ul{
+        list-style:none;
+    }
+    #footer ul li h4{
+        font-family: 'Jost', sans-serif;
+        text-transform: uppercase;
+        color:#5DC1B9;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
 /* CONTACTOS, no media querie en css, responsive x bootstrap*/
 
 .tituloDePagina {
