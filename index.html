@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobilia Muebles</title>
+    <title>Mobilia Muebles de Madera Maciza</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@500&display=swap"
@@ -43,14 +43,14 @@
                             <a class="nav-link" href="./pages/galeria.html">GALERIA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/listadeprecios.html">LISTA DE PRECIOS</a>
+                            <a class="nav-link" href="./pages/listadeprecios.html">PRECIOS</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- fin nav -->
-        <h1 class="header__titulo text-sm-center text-lg-end m-3">MOBILIA MUEBLES</h1>
+        <h1 class="header__titulo text-center text-lg-end m-3">MOBILIA MUEBLES</h1>
     </header>
     <!-- fin header -->
     <main class="main">
@@ -91,43 +91,96 @@
                 </button>
             </div>
         </section>
-        <section class="main__seccion">
-            <h2 class="main__titulo text-center m-4">|NOVEDADES</h2>
+        <section class="main__seccion container">
+            <div class="intro row justify-content-center">
+                <h2 class="intro__titulo text-center m-4">|NOVEDADES</h2>
+                <p class="intro__parrafo text-center">Mobilia S.A es una empresa Argentina y Cordobesa, especializada en la cuidada fabricación de muebles en madera maciza, siendo nuestra principal línea de producción, la creación de mobiliario para dormitorios y comedores de estilos clásicos y modernos.
+
+                    Con el afán de superación y una trayectoria de más de quince años, nuestros muebles han alcanzado posicionarse en numerosos puntos de ventas del país.</p>
+            </div>
         </section>
         <!-- tarjetas -->
         <section class="main__tarjeta container">
             <div class="tarjeta row">
-                <article class="tarjeta__contenedor col-12 col-md-6 col-lg-6">
+                <!-- Tarjeta uno -->
+                <article class="tarjeta__contenedor col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <img src="./imagenes/juegosillas.jpg" class="contenedor__img img-fluid "
                         alt="juego de sillas y mesa de pino oscuro">
-                    <h3 class="contenedor__titulo text-center m-2">Diseño Ornela</h3>
-                    <p class="contenedor__parrafo  m-2 fs-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Quos deleniti ullam iusto aut
-                        distinctio
-                        obcaecati autem dignissimos aperiam? Alias nihil laborum repellendus eaque perferendis
-                        temporibus
-                        quam dicta iure, illum repudiandae. </p>
-                    <div class="contenedor__span d-flex justify-content-center"><a
-                            class="contenedor__span btn btn-primary m-2" href="./pages/Galeria.html#disenoOrnela"
-                            role="button">Detalles</a></div>
+                    <h3 class="contenedor__titulo text-center my-2">Diseño Ornela</h3>
+                    <!-- Modal detalles tecnicos -->
+                    <button type="button" class="contenedor__btn my-2 btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Detalles técnicos
+                    </button>
+                    <!-- Modal -->
+                    <div class="contenedor__modal modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">|Diseño Ornela</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="contenedor__parrafo  fs-7">Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                        Quos deleniti ullam iusto aut
+                                        distinctio
+                                        obcaecati autem dignissimos aperiam? Alias nihil laborum repellendus eaque
+                                        perferendis
+                                        temporibus
+                                        quam dicta iure, illum repudiandae.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </article>
-                <article class="tarjeta__contenedor col-12 col-md-6 col-lg-6">
+                <!-- Tarjeta dos -->
+                <article class="tarjeta__contenedor col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <img src="./imagenes/juegosillamesa.jpg" class="contenedor__img img-fluid"
                         alt="juego de comoda y cama de algarrobo oscuro">
-                    <h3 class="contenedor__titulo text-center m-2">Diseño Augusto</h3>
-                    <p class="contenedor__parrafo m-2 fs-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Quos deleniti ullam iusto aut
-                        distinctio
-                        obcaecati autem dignissimos aperiam? Alias nihil laborum repellendus eaque perferendis
-                        temporibus
-                        quam dicta iure, illum repudiandae.</p>
-                    <div class="contenedor__span d-flex justify-content-center"><a class="btn btn-primary m-2"
-                            href="./pages/Galeria.html#disenoAugusto" role="button">Detalles</a></div>
+                    <h3 class="contenedor__titulo text-center my-2">Diseño Augusto</h3>
+                    <button type="button" class="contenedor__btn my-2 btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Detalles técnicos
+                    </button>
+                    <!-- Modal -->
+                    <div class="contenedor__modal modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">|Diseño Augusto</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="contenedor__parrafo  fs-7">Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                        Quos deleniti ullam iusto aut
+                                        distinctio
+                                        obcaecati autem dignissimos aperiam? Alias nihil laborum repellendus eaque
+                                        perferendis
+                                        temporibus
+                                        quam dicta iure, illum repudiandae.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
     </main>
-    <footer class="main__footer container" id="footer">
+    <footer class="main__footer container mt-4" id="footer">
         <div class="footer row align-items-md-center">
             <div class="footer__tarjeta col-md-4 ">
                 <div class="d-flex flex-column align-items-center p-3">
@@ -141,7 +194,7 @@
                 </div>
             </div>
             <div class="footer__redes col-md-8 p-3 mb-3">
-                <h4 class="redes__titulo text-sm-center">Encontranos también en:</h4>
+                <h4 class="redes__titulo text-sm-center">Mobilia Muebles | Encontranos también en:</h4>
                 <div class="redes__iconos fs-4 d-flex flex-row justify-content-evenly">
                     <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
                     <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
