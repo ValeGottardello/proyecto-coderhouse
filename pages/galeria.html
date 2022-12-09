@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Galeria Mobilia Muebles de Madera Maciza</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/styles.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Mobilia Muebles de Madera Maciza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
 <body>
     <!-- inicio header -->
     <header class="header">
@@ -52,115 +56,154 @@
     </header>
     <main class="main">
         <section class="main__seccion">
-            <h2 class="seccion__titulo">|NUESTROS DISEÑOS</h2>
-            <article class="articulo">
-                <h3 class="articulo__titulo">LINEA COMEDOR</h3>
-                <div class="articulo__tarjetas">
-                    <h4 class="tarjetas__subtitulo" id="disenoOrnela">Diseño Ornela</h4>
-                    <img src="../imagenes/juegosillas.jpg" class="tarjetas__img"
-                        alt="juego de 8 sillas y una mesa, modelo algarrobo">
-                    <span class="tarjetas__span">Detalles técnicos</span>
-                    <a class="tarjetas__boton btn btn-primary" href="../pages/listadeprecios.html"
-                        role="button">Precio</a>
-                    <p class="tarjetas__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolores voluptates natus sunt
-                        temporibus inventore fugit in soluta sit, ullam quisquam ipsum dicta suscipit laboriosam.
-                        Explicabo
-                        tempora quaerat numquam eos.</p>
-                </div>
-                <div class="articulo__tarjetas">
-                    <h4 class="tarjetas__subtitulo" id="disenoAugusto">Diseño Augusto</h4>
-                    <img src="../imagenes/juegosillamesa.jpg" class="tarjetas__img"
-                        alt="juego de 8 sillas y una mesa, modelo pino">
-                    <span class="tarjetas__span">Detalles técnicos</span>
-                    <a class="tarjetas__boton btn btn-primary" href="../pages/listadeprecios.html"
-                        role="button">Precio</a>
-                    <p class="tarjetas__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                        necessitatibus quaerat ea nobis!
-                        Animi rerum quaerat accusantium unde cum illum consectetur hic ab, modi voluptas sunt.
-                        Asperiores id porro expedita.</p>
-                </div>
-                <div class="articulo__tarjetas">
-                    <h4 class="tarjetas__subtitulo">Diseño Silvia</h4>
-                    <img src="../imagenes/modular.jpg" class="tarjetas__img"
-                        alt="modular algarrobo con espacio para tv">
-                    <span class="tarjetas__span">Detalles técnicos</span>
-                    <a class="tarjetas__boton btn btn-primary" href="../pages/listadeprecios.html"
-                        role="button">Precio</a>
-                    <p class="tarjetas__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolores voluptates natus sunt
-                        temporibus inventore fugit in soluta sit, ullam quisquam ipsum dicta suscipit laboriosam.
-                        Explicabo
-                        tempora quaerat numquam eos.</p>
-                </div>
-                <div class="articulo__tarjetas">
-                    <h4 class="tarjetas__subtitulo">Diseño Gisela</h4><br>
-                    <img src="../imagenes/modulartv.jpg" class="tarjetas__img"
-                        alt="modular grande con espacio para tv pino">
-                    <span class="tarjetas__span">Detalles técnicos</span>
-                    <a class="tarjetas__boton btn btn-primary" href="../pages/listadeprecios.html"
-                        role="button">Precio</a>
-                    <p class="tarjetas__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolores voluptates natus sunt
-                        temporibus inventore fugit in soluta sit, ullam quisquam ipsum dicta suscipit laboriosam.
-                        Explicabo
-                        tempora quaerat numquam eos.</p>
+            <!-- tarjetas de galeria en carrusel -->
+            <h2 class="seccion__titulo text-center">|NUESTROS DISEÑOS</h2>
+            <article class="galeria">
+                <h3 class="galeria__titulo text-center -text-md-start text-lg-start m-5">LINEA COMEDOR</h3>
+                <div class="galeria__carrusel m-2 d-flex flex-column align-content-between">
+                    <div id="carrusel carruselgaleria carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-pause="“false”">
+                        <div class="carrusel__container carousel-inner">
+                            <div class="carrusel__tarjeta carousel-item active">
+                                <div class="row">
+                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
+                                        <div class="card w-75" style="width: 18rem;">
+                                            <img src="../imagenes/juegosillas.jpg" class="d-block img-fluid"
+                                                alt="juego de 8 sillas y una mesa, modelo algarrobo">
+                                            <div class="card-body d-flex flex-column align-items-center">
+                                                <h4 class="card-title">Diseño Ornela</h4>
+                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
+                                                    laboriosam ratione odit id exercitationem..</p>
+                                                <a class="tarjetas__boton btn btn-primary"
+                                                    href="../pages/listadeprecios.html" role="button">Precio</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
+                                        <div class="card w-75" style="width: 18rem;">
+                                            <img src="../imagenes/juegosillamesa.jpg" class="d-block img-fluid"
+                                                alt="juego de 8 sillas y una mesa, modelo pino">
+                                            <div class="card-body d-flex flex-column align-items-center">
+                                                <h4 class="card-title">Diseño Augusto</h4>
+                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
+                                                    laboriosam ratione odit id exercitationem..</p>
+                                                <a class="tarjetas__boton btn btn-primary"
+                                                    href="../pages/listadeprecios.html" role="button">Precio</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carrusel__tarjeta carousel-item">
+                                <div class="row">
+                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
+                                        <div class="card w-75" style="width: 18rem;">
+                                            <img src="../imagenes/modular.jpg" class="d-block img-fluid"
+                                                alt="modular algarrobo con espacio para televisor">
+                                            <div class="card-body d-flex flex-column align-items-center">
+                                                <h4 class="card-title">Diseño Silvia</h4>
+                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
+                                                    laboriosam ratione odit id exercitationem..</p>
+                                                <a class="tarjetas__boton btn btn-primary"
+                                                    href="../pages/listadeprecios.html" role="button">Precio</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
+                                        <div class="card w-75" style="width: 18rem;">
+                                            <img src="../imagenes/modulartv.jpg" class="d-block img-fluid"
+                                                alt="modular grande con espacio para televisor pino">
+                                            <div class="card-body d-flex flex-column align-items-center">
+                                                <h4 class="card-title">Diseño Gisela</h4>
+                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
+                                                    laboriosam ratione odit id exercitationem..</p>
+                                                <a class="tarjetas__boton btn btn-primary"
+                                                    href="../pages/listadeprecios.html" role="button">Precio</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
-            <article class="articulo">
-                <h3 class="articulo__titulo">LINEA DORMITORIO</h3>
-                <div class="articulo__tarjetas">
-                    <h4 class="tarjetas__subtitulo">Diseño Luis</h4>
-                    <img src="../imagenes/cuchetaalta.jpg" class="tarjetas__img" alt="cucheta alta una plaza">
-                    <span class="tarjetas__span">Detalles técnicos</span>
-                    <a class="tarjetas__boton btn btn-primary" href="../pages/listadeprecios.html"
-                        role="button">Precio</a>
-                    <p class="tarjetas__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolores voluptates natus
-                        sunt
-                        temporibus inventore fugit in soluta sit, ullam quisquam ipsum dicta suscipit laboriosam.
-                        Explicabo
-                        tempora quaerat numquam eos.</p>
-                </div>
-                <div class="articulo__tarjetas">
-                    <h4 class="tarjetas__subtitulo">Diseño Valentino</h4>
-                    <img src="../imagenes/cuchetabaja.jpg" class="tarjetas__img" alt="cucheta baja una plaza">
-                    <span class="tarjetas__span">Detalles técnicos</span>
-                    <a class="tarjetas__boton btn btn-primary" href="../pages/listadeprecios.html"
-                        role="button">Precio</a>
-                    <p class="tarjetas__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolores voluptates natus
-                        sunt
-                        temporibus inventore fugit in soluta sit, ullam quisquam ipsum dicta suscipit laboriosam.
-                        Explicabo
-                        tempora quaerat numquam eos.</p>
-                </div>
-                <div class="articulo__tarjetas">
-                    <h4 class="tarjetas__subtitulo">Diseño Francesca</h4>
-                    <img src="../imagenes/juegocamaycajonera.jpg" class="tarjetas__img"
-                        alt="juego cama dos plazas y cajonera">
-                    <span class="tarjetas__span">Detalles técnicos</span>
-                    <a class="tarjetas__boton btn btn-primary" href="../pages/listadeprecios.html"
-                        role="button">Precio</a>
-                    <p class="tarjetas__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolores voluptates natus
-                        sunt
-                        temporibus inventore fugit in soluta sit, ullam quisquam ipsum dicta suscipit laboriosam.
-                        Explicabo
-                        tempora quaerat numquam eos.</p>
-                </div>
-                <div class="articulo__tarjetas">
-                    <h4 class="tarjetas__subtitulo">Diseño Giovani</h4>
-                    <img src="../imagenes/placardxxl.jpg" class="tarjetas__img" alt="placard grande empotrado">
-                    <span class="tarjetas__span">Detalles técnicos</span>
-                    <a class="tarjetas__boton btn btn-primary" href="../pages/listadeprecios.html"
-                        role="button">Precio</a>
-                    <p class="tarjetas__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                        dolores voluptates natus
-                        sunt
-                        temporibus inventore fugit in soluta sit, ullam quisquam ipsum dicta suscipit laboriosam.
-                        Explicabo
-                        tempora quaerat numquam eos.</p>
+            <article class="galeria">
+                <h3 class="galeria__titulo text-center -text-md-start text-lg-start m-5">LINEA DORMITORIO</h3>
+                <div class="galeria__carrusel m-2 d-flex flex-column align-content-between">
+                    <div id="carrusel carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-pause="“false”">
+                        <div class="carrusel__container carousel-inner">
+                            <div class="carrusel__tarjeta carousel-item active">
+                                <div class="row">
+                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
+                                        <div class="card w-75" style="width: 18rem;">
+                                            <img src="../imagenes/cuchetaalta.jpg" class="d-block img-fluid"
+                                                alt="cucheta alta una plaza">
+                                            <div class="card-body d-flex flex-column align-items-center">
+                                                <h4 class="card-title">Diseño Luis</h4>
+                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
+                                                    laboriosam ratione odit id exercitationem..</p>
+                                                <a class="tarjetas__boton btn btn-primary"
+                                                    href="../pages/listadeprecios.html" role="button">Precio</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
+                                        <div class="card w-75" style="width: 18rem;">
+                                            <img src="../imagenes/cuchetabaja.jpg" class="d-block img-fluid"
+                                                alt="cucheta baja una plaza">
+                                            <div class="card-body d-flex flex-column align-items-center">
+                                                <h4 class="card-title">Diseño Valentino</h4>
+                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
+                                                    laboriosam ratione odit id exercitationem..</p>
+                                                <a class="tarjetas__boton btn btn-primary"
+                                                    href="../pages/listadeprecios.html" role="button">Precio</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carrusel__tarjeta carousel-item">
+                                <div class="row">
+                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
+                                        <div class="card w-75" style="width: 18rem;">
+                                            <img src="../imagenes/juegocamaycajonera.jpg" class="d-block img-fluid"
+                                                alt="juego cama dos plazas y cajonera">
+                                            <div class="card-body d-flex flex-column align-items-center">
+                                                <h4 class="card-title">Diseño Francesca</h4>
+                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
+                                                    laboriosam ratione odit id exercitationem..</p>
+                                                <a class="tarjetas__boton btn btn-primary"
+                                                    href="../pages/listadeprecios.html" role="button">Precio</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
+                                        <div class="card w-75" style="width: 18rem;">
+                                            <img src="../imagenes/placardxxl.jpg" class="d-block img-fluid"
+                                                alt="placard grande empotrado">
+                                            <div class="card-body d-flex flex-column align-items-center">
+                                                <h4 class="card-title">Diseño Giovani</h4>
+                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
+                                                    laboriosam ratione odit id exercitationem..</p>
+                                                <a class="tarjetas__boton btn btn-primary"
+                                                    href="../pages/listadeprecios.html" role="button">Precio</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>
