@@ -1,2 +1,30 @@
 node-modules/*
 pruebas/*
+        <section class="seccion__tarjetas container">
+            <article class="tarjetas row">
+                <div class="tarjeta__contenedor card col-12 col-md-6" style="width: 18rem;">
+                    <picture>
+                        <source srcset="" media="(min-width:600px)">
+                        <img src="../imagenes/modularimgchica.jpg" class="tarjeta__img card-img-top" alt="modular talla media de madera maciza diseño de mobilia muebles">
+                    </picture>
+                    <div class="tarjeta__info card-body">
+                        <h5 class="card-title">Título de la tarjeta</h5>
+                        <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y
+                            componer la mayor parte del contenido de la tarjeta.</p>
+                        <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </div>
+                <div class="tarjeta__contenedor card col-12 col-md-6" style="width: 18rem;">
+                    <picture>
+                        <source srcset="" media="(min-width:600px)">
+                        <img src="../imagenes/modulartvimgchica.jpg" class="tarjeta__img card-img-top" alt="modular talla grande varios estantes con estante para televisor de madera maciza diseño de mobilia muebles">
+                    </picture>
+                    <div class="tarjeta__info card-body">
+                        <h5 class="card-title">Título de la tarjeta</h5>
+                        <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y
+                            componer la mayor parte del contenido de la tarjeta.</p>
+                        <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </div>
+            </article>
+        </section>
