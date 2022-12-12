@@ -21,7 +21,7 @@
     <header class="header">
         <!-- inicio nav -->
         <nav class="navbar navbar-expand-lg">
-            <div class="navbar__contenedor container-fluid">
+            <div class="navbar__contenedor container-fluid align-items-end">
                 <a class="navbar__contenedor__link navbar-brand" href="./index.html">
                     <img src="../imagenes/logo_mobilia.png" alt="logo mobilia"
                         class="navbar__logo w-100"></a>
@@ -30,7 +30,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar__contenedor__barra collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar__ul navbar-nav">
+                    <ul class="navbar__ul navbar-nav d-flex justify-content-around w-100">
                         <li class="navbar__ul__li nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                         </li>
@@ -88,11 +88,11 @@
                                 required>
                         </div>
                         <div class="form__telefono m-3">
-                            <label for="telefono" class="">puedes comunicarte conmigo al</label>
+                            <label for="telefono" class="telefono">puedes comunicarte conmigo al</label>
                             <input type="tel" class="form-control" id="telefono" placeholder="+59 XXXX XXXXXX" required>
                         </div>
                         <div class="form__email m-3">
-                            <label for="direccionemail" class="telefono">o también a mi email</label>
+                            <label for="direccionemail" class="direccionemail">o también a mi email</label>
                             <input type="email" class="form-control" id="direccionemail" aria-describedby="emailHelp"
                                 placeholder="mailto@hotmail.com" required>
                             <div id="emailaviso" class="form-text col-md-6">[Nunca compartiremos tu email con nadie]
@@ -108,7 +108,7 @@
                             <textarea class="form-control" aria-label="With textarea"
                                 placeholder="Escríbenos por tu consulta"></textarea>
                         </div>
-                        <button class="form__botton m-3 btn btn-primary w-auto" type="submit">ENVIAR</button>
+                        <button class="form__botton boton m-3 btn btn-primary w-auto" type="submit">ENVIAR</button>
                         <div class="form__check m-3 form-check">
                             <input type="checkbox" class="form-check-input" id="cajachequeo">
                             <label class="form-check-label cajachequeo" for="cajachequeo">Cuentanos si te gustaría recibir nuestras

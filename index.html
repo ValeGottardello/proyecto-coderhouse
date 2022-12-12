@@ -21,12 +21,12 @@
     <header class="header">
         <!-- inicio nav -->
         <nav class="navbar navbar-expand-lg">
-            <div class="navbar__contenedor container-fluid">
+            <div class="navbar__contenedor container-fluid ">
                 <a class="navbar__contenedor__link navbar-brand" href="./index.html">
-                    <img src="./imagenes/logo_mobilia.png" alt="logo mobilia"
-                        class="navbar__logo w-100"></a>
-                <button class="navbar__contenedor__boton navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./imagenes/logo_mobilia.png" alt="logo mobilia" class="navbar__logo w-100"></a>
+                <button class="navbar__contenedor__boton navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar__contenedor__barra collapse navbar-collapse" id="navbarNav">
@@ -80,13 +80,13 @@
                             alt="madera siendo encastrada para armar un mueble">
                     </div>
                 </div>
-                <button class="carrusel__botones carousel-control-prev" type="button" data-bs-target="#carruselimagenindex"
-                    data-bs-slide="prev">
+                <button class="carrusel__botones carousel-control-prev" type="button"
+                    data-bs-target="#carruselimagenindex" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carrusel__botones carousel-control-next" type="button" data-bs-target="#carruselimagenindex"
-                    data-bs-slide="next">
+                <button class="carrusel__botones carousel-control-next" type="button"
+                    data-bs-target="#carruselimagenindex" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Siguiente</span>
                 </button>
@@ -95,31 +95,35 @@
         <section class="main__seccion container">
             <div class="seccion row justify-content-center">
                 <h2 class="seccion__novedades subtitulo text-center m-4">|NOVEDADES</h2>
-                <p class="seccion__parrafo text-center">Mobilia S.A es una empresa Argentina y Cordobesa, especializada en la cuidada fabricación de muebles en madera maciza, siendo nuestra principal línea de producción, la creación de mobiliario para dormitorios y comedores de estilos clásicos y modernos.
-                    Con el afán de superación y una trayectoria de más de quince años, nuestros muebles han alcanzado posicionarse en numerosos puntos de ventas del país.</p>
+                <p class="seccion__parrafo text-center">Mobilia S.A es una empresa Argentina y Cordobesa, especializada
+                    en la cuidada fabricación de muebles en madera maciza, siendo nuestra principal línea de producción,
+                    la creación de mobiliario para dormitorios y comedores de estilos clásicos y modernos.
+                    Con el afán de superación y una trayectoria de más de quince años, nuestros muebles han alcanzado
+                    posicionarse en numerosos puntos de ventas del país.</p>
             </div>
         </section>
         <!-- tarjetas -->
         <section class="main__tarjetas container">
             <div class="tarjetas row">
                 <!-- Tarjeta uno -->
-                <article class="tarjetas__contenedor col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                <article
+                    class="tarjetas__contenedor col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <img src="./imagenes/juegosillas.jpg" class="tarejtas__img img-fluid "
                         alt="juego de sillas y mesa de pino oscuro">
                     <h3 class="tarjetas__titulo subtitulo-seccion text-center my-2">Diseño Ornela</h3>
                     <!-- Modal detalles tecnicos -->
-                    <button type="button" class="tarjetas__boton my-2 btn btn-primary" data-bs-toggle="modal"
+                    <button type="button" class="boton tarjetas__boton my-2 btn btn-primary" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">
                         Detalles técnicos
                     </button>
                     <!-- Modal -->
-                    <div class="tarjetas__modal modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="tarjetas__modal modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="staticBackdropLabel">|Diseño Ornela</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    <button type="button" class="boton btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -133,7 +137,7 @@
                                         quam dicta iure, illum repudiandae.</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
+                                    <button type="button" class="boton btn btn-secondary"
                                         data-bs-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -141,22 +145,23 @@
                     </div>
                 </article>
                 <!-- Tarjeta dos -->
-                <article class="tarjeta__contenedor col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                <article
+                    class="tarjeta__contenedor col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <img src="./imagenes/juegosillamesa.jpg" class="contenedor__img img-fluid"
                         alt="juego de comoda y cama de algarrobo oscuro">
                     <h3 class="tarjetas__titulo subtitulo-seccion text-center my-2">Diseño Augusto</h3>
-                    <button type="button" class="tarjetas__boton my-2 btn btn-primary" data-bs-toggle="modal"
+                    <button type="button" class="boton tarjetas__boton my-2 btn btn-primary" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">
                         Detalles técnicos
                     </button>
                     <!-- Modal -->
-                    <div class="tarjetas__modal modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="tarjetas__modal modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="staticBackdropLabel">|Diseño Augusto</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    <button type="button" class="boton btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -170,7 +175,7 @@
                                         quam dicta iure, illum repudiandae.</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
+                                    <button type="button" class="boton btn btn-secondary"
                                         data-bs-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -182,23 +187,27 @@
     </main>
     <footer class="main__footer container-fluid mt-4" id="footer">
         <div class="footer row align-items-md-center">
-            <div class="footer__tarjeta col-md-4 ">
+            <div class="footer__tarjeta col-md-4">
                 <div class="footerLogo d-flex flex-column align-items-center p-3">
                     <img class="footerLogo_img w-50 my-2" src="./imagenes/logo_mobilia.png" alt="logo Mobilia Muebles">
                 </div>
                 <div class="footer__tarjeta d-flex flex-column">
                     <h4 class="footer__tarjeta__contactos text-sm-center my-2">Nuestros contactos</h4>
                     <span class="footer__tarjeta__span text-sm-center my-2">mobiliamuebles@hotmail.com</span>
-                    <span class="footer__tarjeta__span text-sm-center my-2">Ruta 10 - Villa del Rosario - Cordoba Argentina</span>
+                    <span class="footer__tarjeta__span text-sm-center my-2">Ruta 10 - Villa del Rosario - Cordoba
+                        Argentina</span>
                     <span class="footer__tarjeta__span text-sm-center my-2">Telefono (3573) 4233111</span>
                 </div>
             </div>
             <div class="footer__tarjeta col-md-8 p-3 mb-3">
                 <h4 class="footer__tarjeta__titulo text-sm-center">Mobilia Muebles | Encontranos también en:</h4>
-                <div class="footer__tarjeta__iconos fs-4 d-flex flex-row justify-content-evenly">
-                    <a href="https://www.instagram.com/" class="iconos" target="_blank"><i class="iconos__ic bi bi-instagram"></i></a>
-                    <a href="https://www.facebook.com/" class="iconos" target="_blank"><i class="iconos__ic bi bi-facebook"></i></a>
-                    <a href="https://www.linkedin.com/login" class="iconos" target="_blank"><i class="iconos__ic bi bi-linkedin"></i></a>
+                <div class="footer__tarjeta__iconos fs-4 d-flex justify-content-evenly">
+                    <a href="https://www.instagram.com/" class="iconos" target="_blank"><i
+                            class="iconos__ic bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/" class="iconos" target="_blank"><i
+                            class="iconos__ic bi bi-facebook"></i></a>
+                    <a href="https://www.linkedin.com/login" class="iconos" target="_blank"><i
+                            class="iconos__ic bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>

@@ -26,11 +26,13 @@
   list-style: none;
 }
 
+.header {
+  margin: 12px;
+}
 .header .navbar__contenedor__barra .navbar__ul .navbar__ul__li .nav-link {
-  font-family: "DM Serif Display", serif;
   font-weight: 500;
-  font-size: 1.3rem;
-  font-style: normal;
+  font-size: 1.1rem;
+  font-style: bold;
   letter-spacing: 1px;
   color: black;
 }
@@ -38,12 +40,7 @@
   color: gray;
 }
 .header__titulo {
-  font-family: "DM Serif Display", serif;
-  font-weight: 500;
-  font-size: 2.5rem;
-  font-style: normal;
-  letter-spacing: 3px;
-  color: black;
+  visibility: hidden;
 }
 
 .footer {
@@ -63,6 +60,19 @@
 }
 .footer__tarjeta__iconos a i:hover {
   color: goldenrod;
+}
+
+.boton {
+  box-shadow: 7px 7px 0px 0px #d9d9d9;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-color: #d9d9d9;
+  background-color: #6C6C6C;
+}
+
+.boton:hover {
+  border: solid #dadada;
+  background-color: goldenrod;
 }
 
 /*# sourceMappingURL=styles.css.map */
