@@ -20,30 +20,30 @@
     <!-- inicio header -->
     <header class="header">
         <!-- inicio nav -->
-        <nav class="header__nav navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="nav__link navbar-brand" href="./index.html">
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar__contenedor container-fluid">
+                <a class="navbar__contenedor__link navbar-brand" href="./index.html">
                     <img src="./imagenes/logo_mobilia.png" alt="logo mobilia"
-                        class="nav__logo w-100"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        class="navbar__logo w-100"></a>
+                <button class="navbar__contenedor__boton navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="nav__barra collapse navbar-collapse" id="navbarNav">
-                    <ul class="nav__ul navbar-nav">
-                        <li class="nav__li nav-item">
+                <div class="navbar__contenedor__barra collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar__ul navbar-nav">
+                        <li class="navbar__ul__li nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
                         </li>
-                        <li class="nav__li nav-item">
+                        <li class="navbar__ul__li nav-item">
                             <a class="nav-link" href="./pages/contactos.html">CONTACTOS</a>
                         </li>
-                        <li class="nav__li nav-item">
+                        <li class="navbar__ul__li nav-item">
                             <a class="nav-link" href="./pages/historia.html">HISTORIA</a>
                         </li>
-                        <li class="nav__li nav-item">
+                        <li class="navbar__ul__li nav-item">
                             <a class="nav-link" href="./pages/galeria.html">GALERIA</a>
                         </li>
-                        <li class="nav__li nav-item">
+                        <li class="navbar__ul__li nav-item">
                             <a class="nav-link" href="./pages/listadeprecios.html">PRECIOS</a>
                         </li>
                     </ul>
@@ -57,8 +57,8 @@
     <main class="main">
         <!-- imagen de fondo carrusel bootstrap-->
         <section class="main__carrusel carrusel">
-            <div id="carruselimagenindex" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
+            <div id="carrusel" class="carousel slide" data-bs-ride="true">
+                <div class="carrusel__indicadores carousel-indicators">
                     <button type="button" data-bs-target="#carruselimagenindex" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carruselimagenindex" data-bs-slide-to="1"
@@ -66,7 +66,7 @@
                     <button type="button" data-bs-target="#carruselimagenindex" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carrusel__items carousel-inner">
                     <div class="carousel-item active">
                         <img src="./imagenes/imgindex/fondo_slide2.jpg" class="d-block w-100"
                             alt="lapiz y papel disenando muebles">
@@ -80,12 +80,12 @@
                             alt="madera siendo encastrada para armar un mueble">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carruselimagenindex"
+                <button class="carrusel__botones carousel-control-prev" type="button" data-bs-target="#carruselimagenindex"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carruselimagenindex"
+                <button class="carrusel__botones carousel-control-next" type="button" data-bs-target="#carruselimagenindex"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Siguiente</span>
@@ -93,27 +93,27 @@
             </div>
         </section>
         <section class="main__seccion container">
-            <div class="main__intro row justify-content-center">
-                <h2 class="intro__titulo text-center m-4">|NOVEDADES</h2>
-                <p class="intro__parrafo text-center">Mobilia S.A es una empresa Argentina y Cordobesa, especializada en la cuidada fabricación de muebles en madera maciza, siendo nuestra principal línea de producción, la creación de mobiliario para dormitorios y comedores de estilos clásicos y modernos.
+            <div class="seccion row justify-content-center">
+                <h2 class="seccion__novedades subtitulo text-center m-4">|NOVEDADES</h2>
+                <p class="seccion__parrafo text-center">Mobilia S.A es una empresa Argentina y Cordobesa, especializada en la cuidada fabricación de muebles en madera maciza, siendo nuestra principal línea de producción, la creación de mobiliario para dormitorios y comedores de estilos clásicos y modernos.
                     Con el afán de superación y una trayectoria de más de quince años, nuestros muebles han alcanzado posicionarse en numerosos puntos de ventas del país.</p>
             </div>
         </section>
         <!-- tarjetas -->
-        <section class="main__tarjeta container">
-            <div class="tarjeta row">
+        <section class="main__tarjetas container">
+            <div class="tarjetas row">
                 <!-- Tarjeta uno -->
-                <article class="tarjeta__contenedor col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-                    <img src="./imagenes/juegosillas.jpg" class="contenedor__img img-fluid "
+                <article class="tarjetas__contenedor col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                    <img src="./imagenes/juegosillas.jpg" class="tarejtas__img img-fluid "
                         alt="juego de sillas y mesa de pino oscuro">
-                    <h3 class="contenedor__titulo text-center my-2">Diseño Ornela</h3>
+                    <h3 class="tarjetas__titulo subtitulo-seccion text-center my-2">Diseño Ornela</h3>
                     <!-- Modal detalles tecnicos -->
-                    <button type="button" class="contenedor__btn my-2 btn btn-primary" data-bs-toggle="modal"
+                    <button type="button" class="tarjetas__boton my-2 btn btn-primary" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">
                         Detalles técnicos
                     </button>
                     <!-- Modal -->
-                    <div class="contenedor__modal modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    <div class="tarjetas__modal modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -144,13 +144,13 @@
                 <article class="tarjeta__contenedor col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <img src="./imagenes/juegosillamesa.jpg" class="contenedor__img img-fluid"
                         alt="juego de comoda y cama de algarrobo oscuro">
-                    <h3 class="contenedor__titulo text-center my-2">Diseño Augusto</h3>
-                    <button type="button" class="contenedor__btn my-2 btn btn-primary" data-bs-toggle="modal"
+                    <h3 class="tarjetas__titulo subtitulo-seccion text-center my-2">Diseño Augusto</h3>
+                    <button type="button" class="tarjetas__boton my-2 btn btn-primary" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">
                         Detalles técnicos
                     </button>
                     <!-- Modal -->
-                    <div class="contenedor__modal modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    <div class="tarjetas__modal modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -180,22 +180,22 @@
             </div>
         </section>
     </main>
-    <footer class="main__footer container mt-4" id="footer">
+    <footer class="main__footer container-fluid mt-4" id="footer">
         <div class="footer row align-items-md-center">
             <div class="footer__tarjeta col-md-4 ">
                 <div class="footerLogo d-flex flex-column align-items-center p-3">
                     <img class="footerLogo_img w-50 my-2" src="./imagenes/logo_mobilia.png" alt="logo Mobilia Muebles">
                 </div>
-                <div class="footarjeta d-flex flex-column">
-                    <h4 class="footarjeta__contactos text-sm-center my-2">Nuestros contactos</h4>
-                    <span class="footarjeta__span text-sm-center my-2">mobiliamuebles@hotmail.com</span>
-                    <span class="footarjeta__span text-sm-center my-2">Ruta 10 - Villa del Rosario - Cordoba Argentina</span>
-                    <span class="footarjeta__span text-sm-center my-2">Telefono (3573) 4233111</span>
+                <div class="footer__tarjeta d-flex flex-column">
+                    <h4 class="footer__tarjeta__contactos text-sm-center my-2">Nuestros contactos</h4>
+                    <span class="footer__tarjeta__span text-sm-center my-2">mobiliamuebles@hotmail.com</span>
+                    <span class="footer__tarjeta__span text-sm-center my-2">Ruta 10 - Villa del Rosario - Cordoba Argentina</span>
+                    <span class="footer__tarjeta__span text-sm-center my-2">Telefono (3573) 4233111</span>
                 </div>
             </div>
-            <div class="fooredes col-md-8 p-3 mb-3">
-                <h4 class="fooredes__titulo text-sm-center">Mobilia Muebles | Encontranos también en:</h4>
-                <div class="fooredes__iconos fs-4 d-flex flex-row justify-content-evenly">
+            <div class="footer__tarjeta col-md-8 p-3 mb-3">
+                <h4 class="footer__tarjeta__titulo text-sm-center">Mobilia Muebles | Encontranos también en:</h4>
+                <div class="footer__tarjeta__iconos fs-4 d-flex flex-row justify-content-evenly">
                     <a href="https://www.instagram.com/" class="iconos" target="_blank"><i class="iconos__ic bi bi-instagram"></i></a>
                     <a href="https://www.facebook.com/" class="iconos" target="_blank"><i class="iconos__ic bi bi-facebook"></i></a>
                     <a href="https://www.linkedin.com/login" class="iconos" target="_blank"><i class="iconos__ic bi bi-linkedin"></i></a>

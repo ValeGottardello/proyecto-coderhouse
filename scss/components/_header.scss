@@ -1,0 +1,38 @@
+.header {
+
+    .navbar {
+
+        &__contenedor {
+
+            &__barra {
+
+                .navbar__ul {
+
+                    .navbar__ul__li {
+
+                        .nav-link {
+                            font-family: 'DM Serif Display', serif;
+                            font-weight: 500;
+                            font-size: 1.3rem;
+                            font-style: normal;
+                            letter-spacing: 1px;
+                            color: black;
+                        }
+
+                        .nav-link:hover {
+                            color: gray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__titulo {
+        font-family: 'DM Serif Display', serif;
+        font-weight: 500;
+        font-size: 2.5rem;
+        font-style: normal;
+        letter-spacing: 3px;
+        color: black;
+    }
+}

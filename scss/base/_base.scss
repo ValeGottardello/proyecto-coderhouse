@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.subtitulo {
+    color: gray;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 500;
+    font-size: 2rem;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.subtitulo-seccion {
+    color: gray;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.main {
+    &__seccion {
+        .articulo {
+            .articulo {
+                &__info {
+                    .info__ul {
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+}
+

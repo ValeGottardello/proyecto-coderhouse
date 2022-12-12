@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.subtitulo {
+  color: gray;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-size: 2rem;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.subtitulo-seccion {
+  color: gray;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+.main__seccion .articulo .articulo__info .info__ul {
+  list-style: none;
+}
+
+.header .navbar__contenedor__barra .navbar__ul .navbar__ul__li .nav-link {
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: black;
+}
+.header .navbar__contenedor__barra .navbar__ul .navbar__ul__li .nav-link:hover {
+  color: gray;
+}
+.header__titulo {
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: black;
+}
+
+.footer {
+  background-color: grey;
+}
+.footer__tarjeta__titulo {
+  color: black;
+}
+.footer__tarjeta__contactos {
+  color: black;
+}
+.footer__tarjeta__span {
+  color: white;
+}
+.footer__tarjeta__iconos a i {
+  color: white;
+}
+.footer__tarjeta__iconos a i:hover {
+  color: goldenrod;
+}
+
+/*# sourceMappingURL=styles.css.map */

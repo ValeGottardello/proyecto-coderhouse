@@ -13,37 +13,38 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <!-- inicio header -->
     <header class="header">
         <!-- inicio nav -->
-        <nav class="header__nav navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo_mobilia.png" alt="logo mobilia"
-                        class="w-100"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar__contenedor container-fluid">
+                <a class="navbar__contenedor__link navbar-brand" href="./index.html">
+                    <img src="../imagenes/logo_mobilia.png" alt="logo mobilia"
+                        class="navbar__logo w-100"></a>
+                <button class="navbar__contenedor__boton navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
+                <div class="navbar__contenedor__barra collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar__ul navbar-nav">
+                        <li class="navbar__ul__li nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="navbar__ul__li nav-item">
                             <a class="nav-link" href="./contactos.html">CONTACTOS</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="navbar__ul__li nav-item">
                             <a class="nav-link" href="./historia.html">HISTORIA</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="navbar__ul__li nav-item">
                             <a class="nav-link" href="./galeria.html">GALERIA</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./listadeprecios.html">LISTA DE PRECIOS</a>
+                        <li class="navbar__ul__li nav-item">
+                            <a class="nav-link" href="./listadeprecios.html">PRECIOS</a>
                         </li>
                     </ul>
                 </div>
@@ -57,9 +58,9 @@
     <main class="main">
         <section class="main__seccion">
             <!-- tarjetas de galeria en carrusel -->
-            <h2 class="seccion__titulo text-center">|NUESTROS DISEÑOS</h2>
+            <h2 class="seccion__titulo subtitulo text-center">|NUESTROS DISEÑOS</h2>
             <article class="galeria">
-                <h3 class="galeria__titulo text-center -text-md-start text-lg-start m-5">LINEA COMEDOR</h3>
+                <h3 class="galeria__titulo subtitulo text-center text-md-start text-lg-start m-5">LINEA COMEDOR</h3>
                 <div class="galeria__carrusel m-2 d-flex flex-column align-content-between">
                     <div id="carrusel carruselgaleria carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
                         data-bs-pause="“false”">
@@ -71,7 +72,7 @@
                                             <img src="../imagenes/juegosillas.jpg" class="d-block img-fluid"
                                                 alt="juego de 8 sillas y una mesa, modelo algarrobo">
                                             <div class="card-body d-flex flex-column align-items-center">
-                                                <h4 class="card-title">Diseño Ornela</h4>
+                                                <h4 class="card-title subtitulo-seccion">Diseño Ornela</h4>
                                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
                                                     elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
                                                     laboriosam ratione odit id exercitationem..</p>
@@ -85,7 +86,7 @@
                                             <img src="../imagenes/juegosillamesa.jpg" class="d-block img-fluid"
                                                 alt="juego de 8 sillas y una mesa, modelo pino">
                                             <div class="card-body d-flex flex-column align-items-center">
-                                                <h4 class="card-title">Diseño Augusto</h4>
+                                                <h4 class="card-title subtitulo-seccion">Diseño Augusto</h4>
                                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
                                                     elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
                                                     laboriosam ratione odit id exercitationem..</p>
@@ -103,7 +104,7 @@
                                             <img src="../imagenes/modular.jpg" class="d-block img-fluid"
                                                 alt="modular algarrobo con espacio para televisor">
                                             <div class="card-body d-flex flex-column align-items-center">
-                                                <h4 class="card-title">Diseño Silvia</h4>
+                                                <h4 class="card-title subtitulo-seccion">Diseño Silvia</h4>
                                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
                                                     elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
                                                     laboriosam ratione odit id exercitationem..</p>
@@ -117,7 +118,7 @@
                                             <img src="../imagenes/modulartv.jpg" class="d-block img-fluid"
                                                 alt="modular grande con espacio para televisor pino">
                                             <div class="card-body d-flex flex-column align-items-center">
-                                                <h4 class="card-title">Diseño Gisela</h4>
+                                                <h4 class="card-title subtitulo-seccion">Diseño Gisela</h4>
                                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
                                                     elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
                                                     laboriosam ratione odit id exercitationem..</p>
@@ -133,7 +134,7 @@
                 </div>
             </article>
             <article class="galeria">
-                <h3 class="galeria__titulo text-center -text-md-start text-lg-start m-5">LINEA DORMITORIO</h3>
+                <h3 class="galeria__titulo subtitulo text-center -text-md-start  text-lg-start m-5">LINEA DORMITORIO</h3>
                 <div class="galeria__carrusel m-2 d-flex flex-column align-content-between">
                     <div id="carrusel carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
                         data-bs-pause="“false”">
@@ -145,7 +146,7 @@
                                             <img src="../imagenes/cuchetaalta.jpg" class="d-block img-fluid"
                                                 alt="cucheta alta una plaza">
                                             <div class="card-body d-flex flex-column align-items-center">
-                                                <h4 class="card-title">Diseño Luis</h4>
+                                                <h4 class="card-title subtitulo-seccion">Diseño Luis</h4>
                                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
                                                     elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
                                                     laboriosam ratione odit id exercitationem..</p>
@@ -159,7 +160,7 @@
                                             <img src="../imagenes/cuchetabaja.jpg" class="d-block img-fluid"
                                                 alt="cucheta baja una plaza">
                                             <div class="card-body d-flex flex-column align-items-center">
-                                                <h4 class="card-title">Diseño Valentino</h4>
+                                                <h4 class="card-title subtitulo-seccion">Diseño Valentino</h4>
                                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
                                                     elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
                                                     laboriosam ratione odit id exercitationem..</p>
@@ -177,7 +178,7 @@
                                             <img src="../imagenes/juegocamaycajonera.jpg" class="d-block img-fluid"
                                                 alt="juego cama dos plazas y cajonera">
                                             <div class="card-body d-flex flex-column align-items-center">
-                                                <h4 class="card-title">Diseño Francesca</h4>
+                                                <h4 class="card-title subtitulo-seccion">Diseño Francesca</h4>
                                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
                                                     elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
                                                     laboriosam ratione odit id exercitationem..</p>
@@ -191,7 +192,7 @@
                                             <img src="../imagenes/placardxxl.jpg" class="d-block img-fluid"
                                                 alt="placard grande empotrado">
                                             <div class="card-body d-flex flex-column align-items-center">
-                                                <h4 class="card-title">Diseño Giovani</h4>
+                                                <h4 class="card-title subtitulo-seccion">Diseño Giovani</h4>
                                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
                                                     elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
                                                     laboriosam ratione odit id exercitationem..</p>
@@ -208,25 +209,25 @@
             </article>
         </section>
     </main>
-    <footer class="main__footer container mt-4" id="footer">
+    <footer class="main__footer container-fluid mt-4" id="footer">
         <div class="footer row align-items-md-center">
             <div class="footer__tarjeta col-md-4 ">
-                <div class="d-flex flex-column align-items-center p-3">
-                    <img class="footer__img w-50 my-2" src="../imagenes/logo_mobilia.png" alt="logo Mobilia Muebles">
+                <div class="footerLogo d-flex flex-column align-items-center p-3">
+                    <img class="footerLogo_img w-50 my-2" src="../imagenes/logo_mobilia.png" alt="logo Mobilia Muebles">
                 </div>
-                <div class="d-flex flex-column">
-                    <h4 class="footer__contactos text-sm-center my-2">Nuestros contactos</h4>
-                    <span class="text-sm-center my-2">mobiliamuebles@hotmail.com</span>
-                    <span class="text-sm-center my-2">Ruta 10 - Villa del Rosario - Cordoba Argentina</span>
-                    <span class="text-sm-center my-2">Telefono (3573) 4233111</span>
+                <div class="footer__tarjeta d-flex flex-column">
+                    <h4 class="footer__tarjeta__contactos text-sm-center my-2">Nuestros contactos</h4>
+                    <span class="footer__tarjeta__span text-sm-center my-2">mobiliamuebles@hotmail.com</span>
+                    <span class="footer__tarjeta__span text-sm-center my-2">Ruta 10 - Villa del Rosario - Cordoba Argentina</span>
+                    <span class="footer__tarjeta__span text-sm-center my-2">Telefono (3573) 4233111</span>
                 </div>
             </div>
-            <div class="footer__redes col-md-8 p-3 mb-3">
-                <h4 class="redes__titulo text-sm-center">Encontranos también en:</h4>
-                <div class="redes__iconos fs-4 d-flex flex-row justify-content-evenly">
-                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.linkedin.com/login" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <div class="footer__tarjeta col-md-8 p-3 mb-3">
+                <h4 class="footer__tarjeta__titulo text-sm-center">Mobilia Muebles | Encontranos también en:</h4>
+                <div class="footer__tarjeta__iconos fs-4 d-flex flex-row justify-content-evenly">
+                    <a href="https://www.instagram.com/" class="iconos" target="_blank"><i class="iconos__ic bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/" class="iconos" target="_blank"><i class="iconos__ic bi bi-facebook"></i></a>
+                    <a href="https://www.linkedin.com/login" class="iconos" target="_blank"><i class="iconos__ic bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>

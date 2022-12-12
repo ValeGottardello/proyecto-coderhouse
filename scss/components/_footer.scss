@@ -1,0 +1,32 @@
+.footer {
+
+    background-color: grey;
+
+    &__tarjeta {
+
+        &__titulo {
+            color: black;
+        }
+
+        &__contactos {
+            color: black;
+        }
+
+        &__span {
+            color: white;
+        }
+
+        &__iconos {
+            a {
+                i {
+                    color: white;
+                }
+            }
+            a{
+                i:hover{
+                    color: goldenrod;
+                }
+            }
+        }
+    }
+}
