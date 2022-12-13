@@ -1,0 +1,23 @@
+.main {
+    &__seccion {
+        height: 45vh;
+        background-image: url(../imagenes/imgindex/fondo_slide2.jpg);
+    }
+
+    &__mobilia {
+        color: white;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 500;
+        font-size: 3rem;
+        font-style: normal;
+        
+    }
+    &__parrafo{
+        color: white;
+        font-size: 1rem;
+        background-color: rgba(255, 255, 255, 0.445);
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 15px;
+    }
+}

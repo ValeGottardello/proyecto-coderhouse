@@ -30,7 +30,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar__contenedor__barra collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar__ul navbar-nav">
+                    <ul class="navbar__ul navbar-nav d-flex justify-content-around w-100">
                         <li class="navbar__ul__li nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
                         </li>
@@ -55,62 +55,29 @@
     </header>
     <!-- fin header -->
     <main class="main">
-        <!-- imagen de fondo carrusel bootstrap-->
-        <section class="main__carrusel carrusel">
-            <div id="carrusel" class="carousel slide" data-bs-ride="true">
-                <div class="carrusel__indicadores carousel-indicators">
-                    <button type="button" data-bs-target="#carruselimagenindex" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carruselimagenindex" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carruselimagenindex" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carrusel__items carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./imagenes/imgindex/fondo_slide2.jpg" class="d-block w-100"
-                            alt="lapiz y papel disenando muebles">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./imagenes/imgindex/fondo_slide4.jpg" class="d-block w-100"
-                            alt="madera siendo modelada para crear un mueble">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./imagenes/imgindex/fondo_slide5.jpg" class="d-block w-100"
-                            alt="madera siendo encastrada para armar un mueble">
-                    </div>
-                </div>
-                <button class="carrusel__botones carousel-control-prev" type="button"
-                    data-bs-target="#carruselimagenindex" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carrusel__botones carousel-control-next" type="button"
-                    data-bs-target="#carruselimagenindex" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
-            </div>
-        </section>
-        <section class="main__seccion container">
-            <div class="seccion row justify-content-center">
-                <h2 class="seccion__novedades subtitulo text-center m-4">|NOVEDADES</h2>
-                <p class="seccion__parrafo text-center">Mobilia S.A es una empresa Argentina y Cordobesa, especializada
-                    en la cuidada fabricación de muebles en madera maciza, siendo nuestra principal línea de producción,
-                    la creación de mobiliario para dormitorios y comedores de estilos clásicos y modernos.
-                    Con el afán de superación y una trayectoria de más de quince años, nuestros muebles han alcanzado
-                    posicionarse en numerosos puntos de ventas del país.</p>
-            </div>
+        <!-- ./imagenes/imgindex/fondo_slide2.jpg -->
+        <section class="main__seccion container-fluid d-flex flex-column justify-content-center">
+                <h2 class="main__mobilia container text-center text-md-end">MOBILIA MUEBLES</h2>
+                <p class="main__parrafo container text-center text-md-end">Mobilia S.A es una empresa Argentina y Cordobesa,
+                        especializada
+                        en la cuidada fabricación de muebles en madera maciza, siendo nuestra principal línea de
+                        producción,
+                        la creación de mobiliario para dormitorios y comedores de estilos clásicos y modernos.
+                        Con el afán de superación y una trayectoria de más de quince años, nuestros muebles han
+                        alcanzado
+                        posicionarse en numerosos puntos de ventas del país.
+                </p>
         </section>
         <!-- tarjetas -->
         <section class="main__tarjetas container">
+            <h3 class="seccion__novedades subtitulo text-center m-5">|NOVEDADES</h3>
             <div class="tarjetas row justify-content-around">
                 <!-- Tarjeta uno -->
                 <article
                     class="tarjetas__contenedor col-12 col-md-5 col-lg-5 d-flex flex-column justify-content-center align-items-center">
                     <img src="./imagenes/juegosillas.jpg" class="tarejtas__img img-fluid"
                         alt="juego de sillas y mesa de pino oscuro">
-                    <h3 class="tarjetas__titulo subtitulo-seccion text-center my-2">Diseño Ornela</h3>
+                    <h4 class="tarjetas__titulo subtitulo-seccion text-center my-2">Diseño Ornela</h4>
                     <p class="contenedor__parrafo  fs-7">Lorem, ipsum dolor sit amet consectetur
                         adipisicing elit.
                         Quos deleniti ullam iusto aut
@@ -119,15 +86,15 @@
                         perferendis
                         temporibus
                         quam dicta iure, illum repudiandae.</p>
-                        <a class="boton btn btn-primary m-2" href="./pages/galeria.html#ornela" role="button" >Detalles
-                        </a>
+                    <a class="boton btn btn-primary m-2" href="./pages/galeria.html#ornela" role="button">Detalles
+                    </a>
                 </article>
                 <!-- Tarjeta dos -->
                 <article
                     class="tarjetas__contenedor col-12 col-md-5 col-lg-5 d-flex flex-column justify-content-center align-items-center">
                     <img src="./imagenes/juegosillamesa.jpg" class="contenedor__img img-fluid"
                         alt="juego de comoda y cama de algarrobo oscuro">
-                    <h3 class="tarjetas__titulo subtitulo-seccion text-center my-2">Diseño Augusto</h3>
+                    <h4 class="tarjetas__titulo subtitulo-seccion text-center my-2">Diseño Augusto</h4>
                     <p class="contenedor__parrafo  fs-7">Lorem, ipsum dolor sit amet consectetur
                         adipisicing elit.
                         Quos deleniti ullam iusto aut
@@ -136,8 +103,8 @@
                         perferendis
                         temporibus
                         quam dicta iure, illum repudiandae.</p>
-                        <a class="boton btn btn-primary m-2" href="./pages/galeria.html#augusto" role="button" >Detalles
-                        </a>
+                    <a class="boton btn btn-primary m-2" href="./pages/galeria.html#augusto" role="button">Detalles
+                    </a>
                 </article>
             </div>
         </section>
@@ -149,7 +116,7 @@
                     <img class="footerLogo_img w-50 my-2" src="./imagenes/logo_mobilia.png" alt="logo Mobilia Muebles">
                 </div>
                 <div class="footer__tarjeta d-flex flex-column">
-                    <h4 class="footer__tarjeta__contactos text-sm-center my-2">Nuestros contactos</h4>
+                    <h5 class="footer__tarjeta__contactos text-sm-center my-2">Nuestros contactos</h5>
                     <span class="footer__tarjeta__span text-sm-center my-2">mobiliamuebles@hotmail.com</span>
                     <span class="footer__tarjeta__span text-sm-center my-2">Ruta 10 - Villa del Rosario - Cordoba
                         Argentina</span>
