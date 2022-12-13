@@ -15,11 +15,16 @@
 }
 
 .subtitulo-seccion {
-  color: gray;
+  color: #6C6C6C;
   font-family: "DM Serif Display", serif;
   font-weight: 500;
   font-size: 1.5rem;
   font-style: normal;
+  border: solid #6C6C6C;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: fit-content;
+  padding: 3px;
 }
 
 .main__seccion .articulo .articulo__info .info__ul {
@@ -64,10 +69,20 @@
 }
 
 .tarjetas__contenedor {
-  box-shadow: 10px 10px 0px 0px #6C6C6C;
+  box-shadow: 10px -10px 0px 0px #6C6C6C;
   border: solid #6C6C6C;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  margin: 10px;
+}
+.tarjetas__contenedor img {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 60%;
+}
+
+.card-body {
+  margin: 15px;
 }
 
 .boton {

@@ -1,7 +1,15 @@
 .tarjetas__contenedor{
-    box-shadow: 10px 10px 0px 0px #6C6C6C;
+    box-shadow: 10px -10px 0px 0px #6C6C6C;
     border: solid #6C6C6C;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    margin: 10px;
+    img{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 60%;
+    }
 }
-
+.card-body{
+    margin: 15px;
+}
