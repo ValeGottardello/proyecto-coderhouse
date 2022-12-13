@@ -63,6 +63,13 @@
   color: goldenrod;
 }
 
+.tarjetas__contenedor {
+  box-shadow: 10px 10px 0px 0px #6C6C6C;
+  border: solid #6C6C6C;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 .boton {
   box-shadow: 7px 7px 0px 0px #d9d9d9;
   border-top-left-radius: 15px;

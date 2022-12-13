@@ -61,70 +61,154 @@
             <!-- tarjetas de galeria en carrusel -->
             <h2 class="seccion__titulo subtitulo text-center">|NUESTROS DISEÑOS</h2>
             <article class="galeria">
-                <h3 class="galeria__titulo subtitulo text-center text-md-start text-lg-start m-5">LINEA COMEDOR</h3>
-                <div class="galeria__carrusel m-2 d-flex flex-column align-content-between">
-                    <div id="carrusel carruselgaleria carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
-                        data-bs-pause="“false”">
+                <h3 class="galeria__titulo subtitulo-seccion text-center text-md-start text-lg-start m-5">LINEA COMEDOR</h3>
+                <div class="galeria__carrusel">
+                    <div id="carrusel carruselgaleria carouselExampleSlidesOnly" class="carousel slide"
+                        data-bs-ride="carousel" data-bs-pause="“false”">
                         <div class="carrusel__container carousel-inner">
                             <div class="carrusel__tarjeta carousel-item active">
-                                <div class="row">
-                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
-                                        <div class="card w-75" style="width: 18rem;">
+                                <div class="row justify-content-around align-items-center">
+                                    <div class="col carrusel">
+                                        <div class="card w-75 tarjetas__contenedor" style="width: 18rem;">
                                             <img src="../imagenes/juegosillas.jpg" class="d-block img-fluid"
                                                 alt="juego de 8 sillas y una mesa, modelo algarrobo">
                                             <div class="card-body d-flex flex-column align-items-center">
                                                 <h4 class="card-title subtitulo-seccion">Diseño Ornela</h4>
-                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
-                                                    laboriosam ratione odit id exercitationem..</p>
-                                                <a class="tarjetas__boton boton btn btn-primary"
+                                                <button type="button" class="boton btn btn-primary" data-bs-toggle="modal"
+                                                    data-bs-target="#modalorne">
+                                                    Detalles
+                                                </button>
+                                                <div class="modal fade" id="modalorne" tabindex="-1"
+                                                    aria-labelledby="modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5 subtitulo-seccion" id="modalLabel">
+                                                                    Diseño Ornela</h1>
+                                                                <button type="button" class="boton btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus maiores, molestias sint itaque voluptates iure earum maxime aut fugiat quas modi atque libero consequuntur odit illo laboriosam unde nobis.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="boton btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                                <a class="tarjetas__boton btn btn-primary"
                                                     href="../pages/listadeprecios.html" role="button">Precio</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
-                                        <div class="card w-75" style="width: 18rem;">
+                                    <div class="col carrusel">
+                                        <div class="card w-75 tarjetas__contenedor" style="width: 18rem;">
                                             <img src="../imagenes/juegosillamesa.jpg" class="d-block img-fluid"
                                                 alt="juego de 8 sillas y una mesa, modelo pino">
-                                            <div class="card-body d-flex flex-column align-items-center">
+                                            <div class="card-body">
                                                 <h4 class="card-title subtitulo-seccion">Diseño Augusto</h4>
-                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
-                                                    laboriosam ratione odit id exercitationem..</p>
-                                                <a class="tarjetas__boton boton btn btn-primary"
+                                                <button type="button" class="boton btn btn-primary" data-bs-toggle="modal"
+                                                    data-bs-target="#modalaugusto">
+                                                    Detalles
+                                                </button>
+                                                <div class="modal fade" id="modalaugusto" tabindex="-1"
+                                                    aria-labelledby="modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5 subtitulo-seccion" id="modalLabel">
+                                                                    Diseño Augusto</h1>
+                                                                <button type="button" class="boton btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus maiores, molestias sint itaque voluptates iure earum maxime aut fugiat quas modi atque libero consequuntur odit illo laboriosam unde nobis.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="boton btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                                <a class="tarjetas__boton btn btn-primary"
                                                     href="../pages/listadeprecios.html" role="button">Precio</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="carrusel__tarjeta carousel-item">
-                                <div class="row">
-                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
-                                        <div class="card w-75" style="width: 18rem;">
+                                <div class="row justify-content-around align-content-around">
+                                    <div class="col carrusel">
+                                        <div class="card w-75 tarjetas__contenedor" style="width: 18rem;">
                                             <img src="../imagenes/modular.jpg" class="d-block img-fluid"
                                                 alt="modular algarrobo con espacio para televisor">
                                             <div class="card-body d-flex flex-column align-items-center">
                                                 <h4 class="card-title subtitulo-seccion">Diseño Silvia</h4>
-                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
-                                                    laboriosam ratione odit id exercitationem..</p>
-                                                <a class="tarjetas__boton boton btn btn-primary"
+                                                <button type="button" class="boton btn btn-primary" data-bs-toggle="modal"
+                                                    data-bs-target="#modalsilvia">
+                                                    Detalles
+                                                </button>
+                                                <div class="modal fade" id="modalsilvia" tabindex="-1"
+                                                    aria-labelledby="modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5 subtitulo-seccion" id="modalLabel">
+                                                                    Diseño Silvia</h1>
+                                                                <button type="button" class="boton btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus maiores, molestias sint itaque voluptates iure earum maxime aut fugiat quas modi atque libero consequuntur odit illo laboriosam unde nobis.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="boton btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                                <a class="tarjetas__boton btn btn-primary"
                                                     href="../pages/listadeprecios.html" role="button">Precio</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
-                                        <div class="card w-75" style="width: 18rem;">
+                                    <div class="col carrusel">
+                                        <div class="card w-75 tarjetas__contenedor" style="width: 18rem;">
                                             <img src="../imagenes/modulartv.jpg" class="d-block img-fluid"
                                                 alt="modular grande con espacio para televisor pino">
                                             <div class="card-body d-flex flex-column align-items-center">
                                                 <h4 class="card-title subtitulo-seccion">Diseño Gisela</h4>
-                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
-                                                    laboriosam ratione odit id exercitationem..</p>
-                                                <a class="tarjetas__boton boton btn btn-primary"
+                                                <button type="button" class="boton btn btn-primary" data-bs-toggle="modal"
+                                                    data-bs-target="#modalgise">
+                                                    Detalles
+                                                </button>
+                                                <div class="modal fade" id="modalgise" tabindex="-1"
+                                                    aria-labelledby="modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5 subtitulo-seccion" id="modalLabel">
+                                                                    Diseño Gisela</h1>
+                                                                <button type="button" class="boton btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus maiores, molestias sint itaque voluptates iure earum maxime aut fugiat quas modi atque libero consequuntur odit illo laboriosam unde nobis.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="boton btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                                <a class="tarjetas__boton btn btn-primary"
                                                     href="../pages/listadeprecios.html" role="button">Precio</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -135,38 +219,80 @@
                 </div>
             </article>
             <article class="galeria">
-                <h3 class="galeria__titulo subtitulo text-center -text-md-start  text-lg-start m-5">LINEA DORMITORIO</h3>
-                <div class="galeria__carrusel m-2 d-flex flex-column align-content-between">
+                <h3 class="galeria__titulo text-center subtitulo-seccion text-md-start text-lg-start m-5">LINEA DORMITORIO</h3>
+                <div class="galeria__carrusel">
                     <div id="carrusel carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
                         data-bs-pause="“false”">
                         <div class="carrusel__container carousel-inner">
                             <div class="carrusel__tarjeta carousel-item active">
                                 <div class="row">
-                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
-                                        <div class="card w-75" style="width: 18rem;">
+                                    <div class="col carrusel">
+                                        <div class="card w-75 tarjetas__contenedor" style="width: 18rem;">
                                             <img src="../imagenes/cuchetaalta.jpg" class="d-block img-fluid"
                                                 alt="cucheta alta una plaza">
                                             <div class="card-body d-flex flex-column align-items-center">
                                                 <h4 class="card-title subtitulo-seccion">Diseño Luis</h4>
-                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
-                                                    laboriosam ratione odit id exercitationem..</p>
-                                                <a class="tarjetas__boton boton btn btn-primary"
+                                                <button type="button" class="boton btn btn-primary" data-bs-toggle="modal"
+                                                    data-bs-target="#modalluis">
+                                                    Detalles
+                                                </button>
+                                                <div class="modal fade" id="modalluis" tabindex="-1"
+                                                    aria-labelledby="modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5 subtitulo-seccion" id="modalLabel">
+                                                                    Diseño Luis</h1>
+                                                                <button type="button" class="boton btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus maiores, molestias sint itaque voluptates iure earum maxime aut fugiat quas modi atque libero consequuntur odit illo laboriosam unde nobis.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="boton btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                                <a class="tarjetas__boton btn btn-primary"
                                                     href="../pages/listadeprecios.html" role="button">Precio</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
-                                        <div class="card w-75" style="width: 18rem;">
+                                    <div class="col carrusel">
+                                        <div class="card w-75 tarjetas__contenedor" style="width: 18rem;">
                                             <img src="../imagenes/cuchetabaja.jpg" class="d-block img-fluid"
                                                 alt="cucheta baja una plaza">
                                             <div class="card-body d-flex flex-column align-items-center">
                                                 <h4 class="card-title subtitulo-seccion">Diseño Valentino</h4>
-                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
-                                                    laboriosam ratione odit id exercitationem..</p>
-                                                <a class="tarjetas__boton boton btn btn-primary"
+                                                <button type="button" class="boton btn btn-primary" data-bs-toggle="modal"
+                                                    data-bs-target="#modalvale">
+                                                    Detalles
+                                                </button>
+                                                <div class="modal fade" id="modalvale" tabindex="-1"
+                                                    aria-labelledby="modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5 subtitulo-seccion" id="modalLabel">
+                                                                    Diseño Valentino</h1>
+                                                                <button type="button" class="boton btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus maiores, molestias sint itaque voluptates iure earum maxime aut fugiat quas modi atque libero consequuntur odit illo laboriosam unde nobis.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="boton btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                                <a class="tarjetas__boton btn btn-primary"
                                                     href="../pages/listadeprecios.html" role="button">Precio</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -174,31 +300,73 @@
                             </div>
                             <div class="carrusel__tarjeta carousel-item">
                                 <div class="row">
-                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
-                                        <div class="card w-75" style="width: 18rem;">
+                                    <div class="col carrusel">
+                                        <div class="card w-75 tarjetas__contenedor" style="width: 18rem;">
                                             <img src="../imagenes/juegocamaycajonera.jpg" class="d-block img-fluid"
                                                 alt="juego cama dos plazas y cajonera">
                                             <div class="card-body d-flex flex-column align-items-center">
                                                 <h4 class="card-title subtitulo-seccion">Diseño Francesca</h4>
-                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
-                                                    laboriosam ratione odit id exercitationem..</p>
-                                                <a class="tarjetas__boton boton btn btn-primary"
+                                                <button type="button" class="boton btn btn-primary" data-bs-toggle="modal"
+                                                    data-bs-target="#modalfran">
+                                                    Detalles
+                                                </button>
+                                                <div class="modal fade" id="modalfran" tabindex="-1"
+                                                    aria-labelledby="modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5 subtitulo-seccion" id="modalLabel">
+                                                                    Diseño Francesca</h1>
+                                                                <button type="button" class="boton btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus maiores, molestias sint itaque voluptates iure earum maxime aut fugiat quas modi atque libero consequuntur odit illo laboriosam unde nobis.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="boton btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                                <a class="tarjetas__boton btn btn-primary"
                                                     href="../pages/listadeprecios.html" role="button">Precio</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col carrusel mx-3 d-flex justify-content-center align-items-center">
-                                        <div class="card w-75" style="width: 18rem;">
+                                    <div class="col carrusel">
+                                        <div class="card w-75 tarjetas__contenedor" style="width: 18rem;">
                                             <img src="../imagenes/placardxxl.jpg" class="d-block img-fluid"
                                                 alt="placard grande empotrado">
                                             <div class="card-body d-flex flex-column align-items-center">
                                                 <h4 class="card-title subtitulo-seccion">Diseño Giovani</h4>
-                                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                                    elit. Cumque laborum culpa dolorum! Quos, laborum praesentium
-                                                    laboriosam ratione odit id exercitationem..</p>
-                                                <a class="tarjetas__boton boton btn btn-primary"
+                                                <button type="button" class="boton btn btn-primary" data-bs-toggle="modal"
+                                                    data-bs-target="#modalgiovi">
+                                                    Detalles
+                                                </button>
+                                                <div class="modal fade" id="modalgiovi" tabindex="-1"
+                                                    aria-labelledby="modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5 subtitulo-seccion" id="modalLabel">
+                                                                    Diseño Giovani</h1>
+                                                                <button type="button" class="boton btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus maiores, molestias sint itaque voluptates iure earum maxime aut fugiat quas modi atque libero consequuntur odit illo laboriosam unde nobis.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="boton btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                                <a class="tarjetas__boton btn btn-primary"
                                                     href="../pages/listadeprecios.html" role="button">Precio</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
