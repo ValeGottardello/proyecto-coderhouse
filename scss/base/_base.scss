@@ -3,23 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+    color: $color-cuatro;
 }
 
 .subtitulo {
-    color: gray;
-    font-family: 'DM Serif Display', serif;
-    font-weight: 500;
-    font-size: 2rem;
-    font-style: normal;
+    color: $color-cinco;
+    font: $tipografia-dos;
     letter-spacing: 2px;
+    background-color: $color-dostransp;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .subtitulo-seccion {
-    color: #6C6C6C;
-    font-family: 'DM Serif Display', serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    font-style: normal;
+    color: $color-dos;
+    font: $tipografia-dos;
 }
 
 .main {

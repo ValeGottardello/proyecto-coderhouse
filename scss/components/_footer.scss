@@ -1,19 +1,21 @@
 .footer {
 
-    background-color: grey;
+    background-color:$color-dostransp;
 
     &__tarjeta {
 
         &__titulo {
-            color: black;
+            color: $color-cinco;
+            font: $tipografia-dos;
         }
 
         &__contactos {
-            color: black;
+            color: $color-cinco;
+            font: $tipografia-dos;
         }
 
         &__span {
-            color: white;
+            color: $color-cinco;
         }
 
         &__iconos {
@@ -24,7 +26,7 @@
             }
             a{
                 i:hover{
-                    color: goldenrod;
+                    color:$color-uno;
                 }
             }
         }

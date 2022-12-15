@@ -11,16 +11,13 @@
                     .navbar__ul__li {
 
                         .nav-link {
-                            font-family: 'DM Serif Display', serif;
-                            font-weight: 500;
-                            font-size: 1.1rem;
-                            font-style: bold;
+                            font: $tipografia-dos;
                             letter-spacing: 1px;
-                            color: black;
+                            color:$color-cuatro;
                         }
 
                         .nav-link:hover {
-                            color: gray;
+                            color:$color-uno;
                         }
                     }
                 }
