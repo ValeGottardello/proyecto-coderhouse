@@ -8,7 +8,7 @@
 
 .subtitulo {
   color: white;
-  font: normal 500 1.5rem "DM Serif Display", serif;
+  font: normal 500 1.3rem "DM Serif Display", serif;
   letter-spacing: 2px;
   background-color: rgba(17, 134, 145, 0.5019607843);
   border-top-left-radius: 15px;
@@ -17,7 +17,7 @@
 
 .subtitulo-seccion {
   color: #118691;
-  font: normal 500 1.5rem "DM Serif Display", serif;
+  font: normal 500 1.3rem "DM Serif Display", serif;
 }
 
 .main__seccion .articulo .articulo__info .info__ul {
@@ -28,7 +28,7 @@
   margin: 12px;
 }
 .header .navbar__contenedor__barra .navbar__ul .navbar__ul__li .nav-link {
-  font: normal 500 1.5rem "DM Serif Display", serif;
+  font: normal 500 1.3rem "DM Serif Display", serif;
   letter-spacing: 1px;
   color: #474747;
 }
@@ -42,13 +42,9 @@
 .footer {
   background-color: rgba(17, 134, 145, 0.5019607843);
 }
-.footer__tarjeta__titulo {
+.footer__tarjeta__titulo, .footer__tarjeta__contactos {
   color: white;
-  font: normal 500 1.5rem "DM Serif Display", serif;
-}
-.footer__tarjeta__contactos {
-  color: white;
-  font: normal 500 1.5rem "DM Serif Display", serif;
+  font: normal 500 1.3rem "DM Serif Display", serif;
 }
 .footer__tarjeta__span {
   color: white;
@@ -81,13 +77,13 @@
   box-shadow: 7px 7px 0px 0px #d9d9d9;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  border-color: #d9d9d9;
-  background-color: #6C6C6C;
+  border-color: white;
+  background-color: rgba(71, 71, 71, 0.4745098039);
 }
 
 .boton:hover {
   border: solid #dadada;
-  background-color: goldenrod;
+  background-color: #ef7f1a;
 }
 
 .tabla {

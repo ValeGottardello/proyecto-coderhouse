@@ -10,8 +10,7 @@
         }
 
         &__contactos {
-            color: $color-cinco;
-            font: $tipografia-dos;
+            @extend .footer__tarjeta__titulo;
         }
 
         &__span {

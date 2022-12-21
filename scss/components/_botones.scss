@@ -2,11 +2,11 @@
     box-shadow: 7px 7px 0px 0px #d9d9d9;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    border-color: #d9d9d9;
-    background-color:#6C6C6C;
+    border-color: $color-cinco;
+    background-color:$color-cuatrotransp;
 
 }
 .boton:hover{
     border: solid #dadada;
-    background-color: goldenrod;
+    background-color:$color-uno;
 }
