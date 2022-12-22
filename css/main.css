@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: #474747;
+}
+
+.subtitulo {
+  color: white;
+  font: normal 500 1.3rem "DM Serif Display", serif;
+  letter-spacing: 2px;
+  background-color: rgba(17, 134, 145, 0.5019607843);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.subtitulo-seccion {
+  color: #118691;
+  font: normal 500 1.3rem "DM Serif Display", serif;
+}
+
+.main__seccion .articulo .articulo__info .info__ul {
+  list-style: none;
+}
+
+.header {
+  margin: 12px;
+}
+.header .navbar__contenedor__barra .navbar__ul .navbar__ul__li .nav-link {
+  font: normal 500 1.3rem "DM Serif Display", serif;
+  letter-spacing: 1px;
+  color: #474747;
+}
+.header .navbar__contenedor__barra .navbar__ul .navbar__ul__li .nav-link:hover {
+  color: #ef7f1a;
+}
+.header__titulo {
+  visibility: hidden;
+}
+
+.footer {
+  background-color: rgba(17, 134, 145, 0.5019607843);
+}
+.footer__tarjeta__titulo, .footer__tarjeta__contactos {
+  color: white;
+  font: normal 500 1.3rem "DM Serif Display", serif;
+}
+.footer__tarjeta__span {
+  color: white;
+}
+.footer__tarjeta__iconos a i {
+  color: white;
+}
+.footer__tarjeta__iconos a i:hover {
+  color: #ef7f1a;
+}
+
+.tarjetas__contenedor {
+  box-shadow: 10px -10px 0px 0px #6C6C6C;
+  border: solid #6C6C6C;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 10px;
+}
+.tarjetas__contenedor img {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 60%;
+}
+
+.card-body {
+  margin: 15px;
+}
+
+.boton {
+  box-shadow: 7px 7px 0px 0px #d9d9d9;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-color: white;
+  background-color: rgba(71, 71, 71, 0.4745098039);
+}
+
+.boton:hover {
+  border: solid #dadada;
+  background-color: #ef7f1a;
+}
+
+.tabla {
+  color: #118691;
+}
+
+.main__seccionindex {
+  height: 450px;
+  background-image: url(../imagenes/imgindex/fondo_slide2.jpg);
+}
+.main__mobilia {
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-size: 3rem;
+  font-style: normal;
+}
+.main__parrafo {
+  color: white;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.445);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px;
+}/*# sourceMappingURL=main.css.map */
