@@ -1,7 +1,6 @@
 # Final-project: Coderhouse course
 
-# Mobilia Muebles 
-Try it [here](https://proyecto-coderhouse-three.vercel.app/)
+# [Mobilia Muebles ](https://proyecto-coderhouse-three.vercel.app/)
 Static web page of Mobilia Furniture Buissnes.
 
 # Features ✨
